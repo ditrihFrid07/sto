@@ -1,0 +1,255 @@
+@media only screen and (max-width: 992px) {
+  .header-navbar .coll-back span {
+    font-size: 20px; }
+  .header-desc h1 {
+    font-size: 36px; }
+  .header-desc span {
+    font-size: 18px; }
+  .container .advantage1 {
+    grid-gap: 5px; }
+  .container .advantage2 {
+    grid-gap: 5px; }
+  .container .block-advantage {
+    border: 1px solid #f2f2f2; }
+  .section-aplication1 .container-aplication1 {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+    .section-aplication1 .container-aplication1 h2 {
+      font-size: 26px; }
+    .section-aplication1 .container-aplication1 .sectionform1 {
+      width: 100%;
+      -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr); }
+      .section-aplication1 .container-aplication1 .sectionform1 .kont .button {
+        font-size: 15px; }
+  .section-brand {
+    margin-top: 40px; }
+    .section-brand .container-brand h2 {
+      font-size: 22px; }
+    .section-brand .container-brand .brands1 {
+      -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+      width: 100%;
+      padding-top: 20px;
+      padding-bottom: 15px; }
+  .section-konsultation h2 {
+    font-size: 22px; }
+  .section-konsultation .konsultationform {
+    width: 100%; }
+    .section-konsultation .konsultationform .button {
+      font-size: 14px;
+      color: #000; }
+  .section-maps .container-maps {
+    height: 200px;
+    width: 30%; }
+    .section-maps .container-maps h2 {
+      font-size: 20px;
+      padding-top: 20px; }
+    .section-maps .container-maps span {
+      font-size: 18px; } }
+
+@media only screen and (max-width: 768px) {
+  .header-navbar {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr; }
+  .coll-back {
+    margin-top: 20px; }
+    .coll-back span {
+      text-align: center;
+      display: block; }
+  .header-desc h1 {
+    font-size: 30px; }
+  .header-desc span {
+    font-size: 16px; }
+  .container p {
+    height: 50px; }
+  .container .advantage1 {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    line-height: 1.5;
+    width: 100%; }
+  .container .advantage2 {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    line-height: 1.5;
+    width: 100%; }
+  .application {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr; }
+    .application .button {
+      font-size: 16px; }
+    .application .application-fast {
+      grid-column: initial;
+      -ms-grid-column-align: center;
+      justify-self: center;
+      width: 80%; }
+    .application .application-detail {
+      grid-column: initial;
+      -ms-grid-column-align: center;
+      justify-self: center;
+      width: 80%; }
+  .section-aplication1 .container-aplication1 {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+    .section-aplication1 .container-aplication1 h2 {
+      font-size: 22px; }
+    .section-aplication1 .container-aplication1 .sectionform1 {
+      width: 100%;
+      border: none;
+      background-color: #fff;
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr; }
+      .section-aplication1 .container-aplication1 .sectionform1 select {
+        width: 80%;
+        display: block; }
+      .section-aplication1 .container-aplication1 .sectionform1 textarea {
+        width: 80%; }
+      .section-aplication1 .container-aplication1 .sectionform1 input {
+        width: 80%; }
+      .section-aplication1 .container-aplication1 .sectionform1 button {
+        width: 60%; }
+  .section-brand {
+    margin-top: 30px; }
+    .section-brand .container-brand h2 {
+      font-size: 18px;
+      padding: 0 20px; }
+    .section-brand .container-brand .brands1 {
+      -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+      width: 100%;
+      padding-top: 20px;
+      padding-bottom: 15px; }
+  .reviews {
+    margin-top: 20px; }
+    .reviews h2 {
+      padding-top: 20px;
+      font-size: 22px; }
+    .reviews .container-reviews {
+      padding-top: 10px;
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+      width: 100%; }
+    .reviews .block-feedback .img {
+      -ms-grid-column-align: center;
+      justify-self: center; }
+    .reviews .block-feedback .feedback-text {
+      padding-right: 20px;
+      padding-left: 20px; }
+      .reviews .block-feedback .feedback-text span {
+        font-size: 14px; }
+      .reviews .block-feedback .feedback-text p {
+        font-size: 12px; }
+  .section-konsultation {
+    background-color: #dbdbdb;
+    padding-bottom: 20px; }
+    .section-konsultation h2 {
+      font-size: 20px; }
+    .section-konsultation .konsultationform {
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+      background-color: #fff; }
+      .section-konsultation .konsultationform div {
+        -ms-grid-column-align: center;
+        justify-self: center; }
+        .section-konsultation .konsultationform div label {
+          display: block;
+          text-align: center; }
+        .section-konsultation .konsultationform div input {
+          width: 80%;
+          display: block;
+          margin: 0 auto; }
+        .section-konsultation .konsultationform div .button {
+          font-size: 14px;
+          width: 60%; }
+  .section-maps .container-maps {
+    height: 200px;
+    width: 80%; }
+    .section-maps .container-maps h2 {
+      font-size: 18px;
+      padding-top: 20px; }
+    .section-maps .container-maps span {
+      font-size: 16px; }
+  .footer-navbar {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr; } }
+
+@media only screen and (max-width: 620px) {
+  .header-advantages {
+    -ms-grid-columns: 2fr;
+    grid-template-columns: 2fr;
+    grid-gap: 20px; }
+    .header-advantages .advantages-delivery {
+      -ms-grid-column: 1;
+      -ms-grid-column-span: 2;
+      grid-column: 1/3;
+      -ms-grid-column-align: start;
+      justify-self: start; }
+    .header-advantages .advantages-new {
+      -ms-grid-column: 3;
+      -ms-grid-column-span: 1;
+      grid-column: 3/4;
+      -ms-grid-column-align: start;
+      justify-self: start; }
+    .header-advantages .advantages-availability {
+      -ms-grid-row: 2;
+      grid-row: 2;
+      -ms-grid-column: 1;
+      -ms-grid-column-span: 3;
+      grid-column: 1/4;
+      -ms-grid-column-align: center;
+      justify-self: center; }
+  .section-brand .container-brand .brands1 {
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns: repeat(3, 1fr); }
+  .reviews {
+    margin-top: 20px; }
+    .reviews h2 {
+      padding-top: 20px;
+      font-size: 20px; }
+    .reviews .container-reviews {
+      padding-top: 10px;
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+      width: 100%; }
+    .reviews .block-feedback {
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr; }
+      .reviews .block-feedback .img {
+        -ms-grid-column-align: center;
+        justify-self: center; } }
+
+@media only screen and (max-width: 460px) {
+  .header-advantages {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 20px; }
+    .header-advantages .advantages-delivery {
+      grid-column: initial;
+      -ms-grid-column-align: center;
+      justify-self: center; }
+      .header-advantages .advantages-delivery span {
+        font-size: 20px; }
+      .header-advantages .advantages-delivery img {
+        width: 90px;
+        height: 90px; }
+    .header-advantages .advantages-new {
+      grid-column: initial;
+      -ms-grid-column-align: center;
+      justify-self: center; }
+      .header-advantages .advantages-new span {
+        font-size: 20px; }
+      .header-advantages .advantages-new img {
+        width: 90px;
+        height: 90px; }
+    .header-advantages .advantages-availability {
+      grid-column: initial;
+      -ms-grid-column-align: center;
+      justify-self: center; }
+      .header-advantages .advantages-availability span {
+        font-size: 20px; }
+      .header-advantages .advantages-availability img {
+        width: 90px;
+        height: 90px; }
+  .section-brand .container-brand .brands1 {
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr); } }

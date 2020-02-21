@@ -1,0 +1,129 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+h1, p, span {
+	font-family: 'Lato', sans-serif;
+}
+.header {
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-areas:  
+		'. header-navbar header-navbar .'
+		'. header-desc header-desc .'
+		'. header-advantages header-advantages .'
+		'. application application .';
+}
+.header:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #212121;
+	opacity: 0.85;
+}
+.header-navbar {grid-area: header-navbar;}
+.header-desc {grid-area: header-desc;}
+.header-advantages {grid-area: header-advantages;}
+.application {grid-area: application;}
+
+.header-navbar h1 {
+	color: #5a5a5a;	
+}
+.header-navbar {
+	z-index: 1;
+	justify-items: center;
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	grid-template-areas:  
+		'logo  collback';
+		grid-column-gap: 20px;
+}
+.logo {
+	grid-area: logo;
+	justify-self: start;
+}
+.coll-back {
+	grid-area: collback;
+	margin-top: 20px;
+	justify-self: end;
+}
+.coll-back span {
+	color: #fff;
+	font-size: 28px;
+	font-weight: bold;
+}
+.coll-back a {
+	color: #d91233;
+	font-size: 16px;
+}
+.header-desc {
+	z-index: 1;
+}
+.header-desc h1 {
+	color: #fff;
+	text-align: center;
+}
+.advantages-delivery {grid-area: advantages-delivery;}
+.advantages-new {grid-area: advantages-new;}
+.advantages-availability {grid-area: advantages-availability;}
+.header-advantages {
+	z-index: 1;
+	display: grid;
+	grid-template-columns: 2fr 2fr 2fr;
+	grid-template-areas: 
+		'advantages-delivery advantages-new advantages-availability';
+	grid-column-gap: 20px;
+	justify-self: start;
+}
+.header-advantages img {
+	margin: 0 auto;
+	display: block;
+}
+.header-advantages span {
+	display: block;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+}
+.application {
+	z-index: 1;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	
+	grid-column-gap: 20px;
+}
+.application-fast {
+	grid-area: application-fast; 
+	justify-self: stert;
+}
+.application-detail {
+	grid-area: application-detail; 
+	justify-self: end;
+}
+.application p {
+	font-size: 14px;
+	color: #fff;
+	margin-top: 15px;
+}
+.button {
+	font-size: 18px;
+	color: #fff;
+	border: 2px solid #d91233;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 50px;
+	border-radius: 30px;
+}
+.button:hover {
+	background-color: #d91233;
+}
